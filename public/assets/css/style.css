@@ -1061,6 +1061,9 @@ select {
   background-color: #f9f9f9 !important;
 }
 
+.bg-maroon{
+  background-color: #A62C2B !important;
+}
 .bg-dark {
   background-color: #222222 !important;
 }
@@ -1121,6 +1124,10 @@ select {
   /* background-color: rgba(255, 118, 7, 0.9); */
 }
 
+.bg-overlay-white:before{
+  background-color: white;
+}
+
 /*-------------------------
    Typography
 --------------------------*/
@@ -1179,6 +1186,16 @@ h6 {
   margin-bottom: 12px;
 }
 
+.heading__subtitle_black {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 700;
+  /* color: #A62C2B; */
+  color:#000000;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
 .heading__title {
   font-size: 34px;
   margin-bottom: 18px;
@@ -1188,6 +1205,13 @@ h6 {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 0;
+}
+
+.heading__desc_white {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 0;
+  color:white
 }
 
 .divider__line+.heading__desc {
@@ -1610,6 +1634,8 @@ h6 {
   color: #A62C2B;
 }
 
+
+
 .btn__primary.btn__hover2:active,
 .btn__primary.btn__hover2:focus,
 .btn__primary.btn__hover2:hover {
@@ -1665,7 +1691,7 @@ h6 {
 /* Button White */
 .btn__white {
   background-color: #ffffff;
-  color: #1b1a1a;
+  color: #A62C2B;
   border: 2px solid #ffffff;
 }
 
@@ -1688,6 +1714,20 @@ h6 {
 .btn__rounded {
   border-radius: 50px;
 }
+
+
+.btn__white.btn__hover3:active,
+.btn__white.btn__hover3:focus,
+.btn__white.btn__hover3:hover {
+  background-color: #A62C2B;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn__rounded {
+  border-radius: 50px;
+}
+
 
 /* Button Link */
 .btn__link {
@@ -3883,7 +3923,7 @@ textarea.form-control {
     Footer
 --------------------------*/
 .footer {
-  background-color: #161616;
+  background-color: #ffffff;
 }
 
 .footer-top {
@@ -4016,7 +4056,7 @@ textarea.form-control {
 
 .footer-bottom {
   padding: 30px 0;
-  border-top: 2px solid #212121;
+  border-top: 2px solid #A62C2B;
 }
 
 .footer-bottom .social__icons a {
@@ -4038,9 +4078,10 @@ textarea.form-control {
   opacity: 0;
   z-index: 1000;
   font-size: 18px;
-  border-radius: 4px;
-  color: #ffffff;
-  background-color: #222222;
+  border-radius: 10px;
+  border-color: #A62C2B;
+  color: #A62C2B;
+  background-color: #ffffff;
   overflow: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -4050,6 +4091,8 @@ textarea.form-control {
 }
 
 #scrollTopBtn:hover {
+  
+  color: #ffffff;
   background-color: #A62C2B;
 }
 
@@ -5096,7 +5139,7 @@ textarea.form-control {
 .fancybox-white .fancybox-item .fancybox__icon,
 .fancybox-white .fancybox-item .fancybox__title,
 .fancybox-white .fancybox-item:hover .fancybox__title {
-  color: #ffffff;
+  color: #A62C2B;
 }
 
 /* Medium Size Screens */
